@@ -43,7 +43,7 @@ public class EmitLog {
         t.start();
         while (true) {
             String message = scanner.nextLine();
-            message = username +"："+message;
+            message = username + "：" + message;
             channel.basicPublish(EXCHANGE_NAME, "", null, message.getBytes());
         }
     }
@@ -61,7 +61,7 @@ public class EmitLog {
 
                 System.out.println(" [*] Waiting for messages. To exit press CTRL+C");
 
-                Consumer consumer = new DefaultConsumer(channel){
+                Consumer consumer = new DefaultConsumer(channel) {
                     @Override
                     public void handleDelivery(String consumerTag, Envelope envelope, AMQP.BasicProperties properties, byte[] body) throws IOException {
                         String msg = new String(body, "UTF-8");
