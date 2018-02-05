@@ -11,7 +11,7 @@ import java.util.Scanner;
  * @create 2018-02-02 17:31
  */
 public class RabbitChatRoom {
-    private static final String EXCHANGE_NAME = "logs";
+    private static final String EXCHANGE_NAME = "RabbitChatRoom";
     private Channel channel;
     private Connection connection;
 

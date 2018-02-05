@@ -12,7 +12,7 @@ import java.util.concurrent.TimeoutException;
  * @create 2018-02-02 17:31
  */
 public class EmitLog {
-    private static final String EXCHANGE_NAME = "RabbitChatRoom";
+    private static final String EXCHANGE_NAME = "logs";
     private static Channel channel = null;
     private static Connection connection = null;
     private static String username = null;
