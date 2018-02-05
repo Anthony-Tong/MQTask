@@ -30,7 +30,7 @@ public class EmitLog3 {
         }
     }
 
-    public static void main(String[] argv) throws Exception {
+    public static void main(String[] args) throws Exception {
         EmitLog3 emitLog = new EmitLog3();
         Scanner scanner = new Scanner(System.in);
         System.out.println("请输入昵称：");

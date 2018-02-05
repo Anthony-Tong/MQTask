@@ -12,7 +12,7 @@ import com.rabbitmq.client.QueueingConsumer;
 public class ReceiveLogs {
     private static final String EXCHANGE_NAME = "logs";
 
-    public static void main(String[] argv) throws Exception {
+    public static void main(String[] args) throws Exception {
 
         ConnectionFactory factory = new ConnectionFactory();
         factory.setHost("localhost");

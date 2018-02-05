@@ -26,7 +26,7 @@ public class RabbitChatRoom {
 
     }
 
-    public static void main(String[] argv) {
+    public static void main(String[] args) {
         try {
             RabbitChatRoom chatRoom = new RabbitChatRoom();
             chatRoom.send();
