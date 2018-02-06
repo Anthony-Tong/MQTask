@@ -1,4 +1,4 @@
-package com.bzi;
+package com.biz;
 
 import com.rabbitmq.client.*;
 import com.rabbitmq.client.Consumer;
